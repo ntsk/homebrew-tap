@@ -12,7 +12,14 @@ brew tap ntsk/tap
 
 | Formula | Description |
 |---------|-------------|
+| [fad](https://github.com/ntsk/fad) | Upload, download, and install APK/AAB releases on Firebase App Distribution |
 | [rss](https://github.com/ntsk/rss.rs) | A simple RSS/Atom feed reader for the terminal |
+
+### fad
+
+```bash
+brew install ntsk/tap/fad
+```
 
 ### rss
 
