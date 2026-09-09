@@ -1,28 +1,28 @@
 class Fad < Formula
   desc "Upload, download, and install APK/AAB releases on Firebase App Distribution"
   homepage "https://github.com/ntsk/fad"
-  version "0.1.3"
+  version "0.1.4"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/ntsk/fad/releases/download/v0.1.3/fad-v0.1.3-aarch64-apple-darwin.tar.gz"
-      sha256 "921e78f4c1e77c045bfa88a0ac7d665d42382c5d825758cd75f366417840a30d"
+      url "https://github.com/ntsk/fad/releases/download/v0.1.4/fad-v0.1.4-aarch64-apple-darwin.tar.gz"
+      sha256 "ae4ddeba039fced4678971a82779efa5c615cbcc1bd28f312144123ca461955c"
     end
     on_intel do
-      url "https://github.com/ntsk/fad/releases/download/v0.1.3/fad-v0.1.3-x86_64-apple-darwin.tar.gz"
-      sha256 "4aceeedeb6a8b0d92ed8ccb214c1696c115e24b4fb0408c339a642b3d1c8aaf6"
+      url "https://github.com/ntsk/fad/releases/download/v0.1.4/fad-v0.1.4-x86_64-apple-darwin.tar.gz"
+      sha256 "2a2ec7393aa9921b3d655d96d84c4ecbf42b43a46e2a90eed0f1c2ab13152ca0"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/ntsk/fad/releases/download/v0.1.3/fad-v0.1.3-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "ccdafcb5532d69632dba19f55321452b47dc40f0b652b10ca8923cb3eadb6e24"
+      url "https://github.com/ntsk/fad/releases/download/v0.1.4/fad-v0.1.4-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "16f17a00183e5f55dc071cc81b7e34d74d80465c418d9de1ce623f9f812e6307"
     end
     on_intel do
-      url "https://github.com/ntsk/fad/releases/download/v0.1.3/fad-v0.1.3-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "3a6f13fd6439024314c51a496cc38e2a0b7c278bf680d1fab17c86159766b0e3"
+      url "https://github.com/ntsk/fad/releases/download/v0.1.4/fad-v0.1.4-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "e093bd28b50e2212a18a82274781cd5884c1ac75fc372137fb8015f0faf480e1"
     end
   end
 
